@@ -1,6 +1,6 @@
 # Ejemplos: así se nota la diferencia
 
-*Ejemplos ilustrativos, escritos para enseñar la diferencia.* *Pawly es una startup ficticia: el caso que seguimos en la sesión.* Es un marketplace de paseadores y cuidadores para dueños de perros en España, donde 9 de cada 20 dueños abandonan en el registro. Es una sola historia y los datos y las cifras son inventados. Un caso por cada regla del registro de [`plantilla-instrucciones.md`](plantilla-instrucciones.md).
+*Ejemplos ilustrativos, escritos para enseñar la diferencia.* *Pawly es una startup ficticia: el caso que seguimos en la sesión.* Es un marketplace de paseadores y cuidadores para dueños de perros en España, donde 9 de cada 20 dueños abandonan en el registro. Es una sola historia y los datos y las cifras son inventados. Un caso por cada una de las reglas que [`prompt-instrucciones.md`](prompt-instrucciones.md) mete en tus instrucciones.
 
 ---
 

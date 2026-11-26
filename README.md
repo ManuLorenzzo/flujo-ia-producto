@@ -10,9 +10,12 @@ Tiene tres partes: unas **instrucciones** para pegar en cualquier IA (valen en c
 
 ## 1. Las instrucciones (empieza por aquí)
 
-[`plantilla-instrucciones.md`](plantilla-instrucciones.md): las instrucciones del proyecto, lo que la IA lee antes de cada tarea. Se pegan en un Proyecto de Claude, ChatGPT o Gemini. Traen un registro de reglas con seis reglas reales de Mint ya rellenas (qué pasó, la regla, cómo se comprueba) y una tabla vacía para las tuyas.
+[`prompt-instrucciones.md`](prompt-instrucciones.md): un prompt para que la IA te haga las preguntas y te escriba las instrucciones de tu proyecto (lo que lee antes de cada tarea). El mejor prompt te lo escribe ella. Lleva dentro las reglas que salieron de errores reales de Mint.
 
-Cada vez que la IA te cueste tiempo o dinero, añade una fila. Sin forma de comprobarla, no es regla.
+1. Pega el prompt en un chat nuevo de tu IA.
+2. Contesta sus preguntas.
+3. Pega lo que te devuelve en las instrucciones fijas de tu proyecto (en Claude y ChatGPT, un Proyecto; en agentes, `CLAUDE.md` o `AGENTS.md`).
+4. Cada vez que la IA te cueste tiempo o dinero, pídele que añada la regla. Sin forma de comprobarla, no es regla.
 
 Ejemplos de antes y después de cada regla, con una sola historia (el registro de Pawly, una startup ficticia): [`ejemplos.md`](ejemplos.md).
 
@@ -32,7 +35,7 @@ Ejemplos de antes y después de cada regla, con una sola historia (el registro d
 
 > Si en tu app los menús se llaman distinto, busca **Skills** dentro de **Personalizar**.
 >
-> **Si la skill no aparece en tu plan, usa la plantilla en texto**, que funciona en cualquiera. Las tres skills también se pueden pegar tal cual (el contenido de `SKILL.md`) en las instrucciones de un Proyecto.
+> **Si la skill no aparece en tu plan, usa el prompt de instrucciones**, que funciona en cualquier IA. Las tres skills también se pueden pegar tal cual (el contenido de `SKILL.md`) en las instrucciones de un Proyecto.
 
 Las tres skills son solo texto, sin código: puedes leerlas en [`skills/`](skills/) antes de instalarlas. Hazlo siempre con cualquier skill que te llegue de fuera.
 
